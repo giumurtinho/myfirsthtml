@@ -1,0 +1,199 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background: #bd88ce;
+}
+.caixa-top {
+    position: relative;
+    width: 50px;
+    margin: 0 0 0 50px;
+}
+#marca {
+    width: 300px;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}    
+nav li {
+    display: inline;
+    margin: 0 20px 0 3px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ffffff;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+}
+#body-div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}   
+.child-div {
+    margin: 2%;
+    text-align: center;
+    border: 1px solid #bd88ce;
+    padding: 20px;
+    border-radius: 10px;
+}
+.child-div:hover {
+    border-color:#000000;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+} 
+.child-div > h2 {
+    font-size: 30px;
+}
+.child-div > img {
+    width: 70%;
+    padding: 10px;
+}
+.child-div > p > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: inherit;
+}
+.child-div > p > a:hover {
+    color: #7a16b4;
+    font-size: 25px;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+.child-div > p > a:active {
+    border-color: #220433;
+}
+footer {
+    text-align: center;
+    background: url("fundo.png");
+}
+#logo {
+    width: 300px;
+}
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 0 0 40px;
+}
+
+/* css formulário */
+
+form {
+    margin: 40px 488px 40px;
+    width: 976px;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 15px 244px;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 15px 244px;    
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox, select {
+    margin: 0 0 15px 244px; 
+}   
+.enviar {
+    width: 15%;
+    margin: 10px 0 15px 244px;    
+    padding: 20px 0;
+    background: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: #bd88ce;
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+/* css home */
+
+.titulo-principal {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+.principal p {
+    margin: 0 0 1em;
+    font-size: 24px;
+}
+.principal strong {
+    font-weight: bold;
+}
+.principal em {
+    font-style: italic;
+}
+.natal{
+    width: 15%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.projetos {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE,#7a16b4);
+}
+.conteudo-projetos {
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-projetos {
+    width: 40%;
+    display: block;
+    vertical-align: top;
+    margin: 0 10px 0 250px;
+}
+.itens {
+    line-height: 1.5;
+    font-size: 24px;
+}
+.itens:first-child {
+    font-weight: bold;
+} 
+.itens:before {
+    content: "★"
+} 
+
+/* css para o mobile */
+
+@media screen and (max-width: 480px) {
+    form, .input-padrao, .enviar, form label, form legend {
+        width: 100%;
+    }
+    nav {
+        position: static;
+    }
+    nav li, nav a {
+        width: 100%;
+        font-size: 20px;
+        margin: 0 0 0 5px;
+        border: none;
+        padding: none;
+    }
+}

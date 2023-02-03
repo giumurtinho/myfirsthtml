@@ -1,0 +1,43 @@
+body {
+    background:#ffffff;
+}
+#mascote {
+    height: 400px;
+    margin-left: 41%;
+}
+.principal {
+    background: #b29de2;
+    padding: 30px;
+}
+.titulo-principal {
+    padding-left: 30px;
+}
+.titulo-centralizado {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 20px
+}
+#star {
+    font-size: 25px
+}
+em strong {
+    color: #ffffff;
+}
+.itens {
+    font-style: italic;
+}
+.contatos {
+    background: #FFFFFF;
+    padding: 20px;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagemmarca {
+    width: 20%;
+}
